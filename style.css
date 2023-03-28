@@ -1,0 +1,92 @@
+.nav-btn,.nav-btn2, .nav-btn3, .nav-btn4 {
+    background-color: white;
+    outline: none;
+    border: 50px;
+    box-shadow: none;
+    padding: 5px 25px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.nav-btn {
+    color: rgb(175, 162, 146);
+}
+
+.nav-btn2, .nav-btn3 {
+    color: #1E0E62;
+}
+
+.nav-btn4 {
+    background-color: #482BE7;
+    color: white;
+    border-radius: 100px;
+}
+
+.head-text {
+    color: rgb(4, 4, 77);
+    font-size: large;
+    /* margin-left: 95px; */
+}
+
+.head-text2 {
+    /* margin-left: 300px; */
+    padding-top: 60px;
+    color: rgb(4, 4, 77);
+    font-size: 45px;
+}
+
+.para-text {
+    /* margin-left: 300px; */
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-btn5 {
+    background-color: rgb(120, 206, 206);
+    border-radius: 100px;
+    margin-top: 50px;
+    color: white;
+    font-size: small;
+    /* margin-left: 300px; */
+    padding: 7px 15px;
+    border: 0ch;
+    width: 100px;
+}
+
+.nav-btn6 {
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 10px;
+    color: blue;
+    font-size: small;
+    padding: 10px 15px;
+    border: 0ch;
+    width: 100px;
+}
+
+.form-sect{
+    margin-top: 2px;
+}
+
+.head-img img{
+    max-width: 80% ;
+}
+
+.head-img img{
+    width: 100%;
+}
+
+    @media screen and (max-width = 992px) {
+        .nav-bar{
+          display: contents;
+        }
+
+       .head-img img{
+        width: 70% ;
+       }
+
+       .container{
+        text-align: center;
+       }
+    }
+    
